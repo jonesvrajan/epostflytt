@@ -1,0 +1,143 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en';
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
+
+*, 
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.page-logo {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 700;
+  color: #999;
+  text-transform: uppercase;
+}
+
+.android-be-together-section {
+  background: url('../images/slide-3.jpg') center 0 no-repeat;
+  padding: 40px 0;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;position: relative;
+  @media screen and (min-width: 768px) {
+    padding: 200px 0;
+  }
+  &:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    // background: linear-gradient(160deg,#02ccba,#aa7ecd);
+    background: linear-gradient(160deg,#02ccba,#aa7ecd);
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    opacity: 0.7;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 0;
+  }
+}
+
+.android-slogan {
+  padding: 40px;
+  max-width: 800px;
+  // background: rgba(0 ,0, 0 , 0.6);
+  margin: 0 auto;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 50px;
+  position: relative;
+  z-index: 9;
+  @media screen and (min-width: 768px) {
+    padding: 40px 0;
+  }
+}
+
+.android-header .mdl-navigation__link {
+  font-weight: normal;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.mdl-cell--6-col, .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {
+  @media screen and (max-width: 839px) {
+    width: calc(100% - 16px);
+  }
+}
+
+.section--grey {
+  background-color: #f6f6f6;
+}
+
+.form-section .mdl-textfield {
+  width: 100%;
+  display: block;
+}
+
+.form-section {
+  h3 {
+    color: #757575;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  }
+
+  padding-bottom: 30px;
+  .mdl-textfield__label {
+    color: #ACACAC;
+    font-size: 14px;
+  }
+}
+
+.btn-group {
+  .mdl-button--accent.mdl-button--accent.mdl-button--raised {
+    background: #FFF;
+  }
+}
+
+.description-area {
+  @media screen and (min-width: 768px){
+    padding: 70px 0 0;
+  }
+  p {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  }
+}
+
+.mdl-mega-footer {
+  color: #FFF;
+  p {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-size: 12px;
+  }
+  a {
+    color: #FFF;
+  }
+}
+
+.mdl-mega-footer--right-section, 
+.mdl-mega-footer--left-section {
+  margin: 0;
+}
+
+.android-drawer .mdl-layout-title {
+  .page-logo {
+    color: #FFF;
+    padding: 50px 0 0;
+    display: block;
+  }
+}
